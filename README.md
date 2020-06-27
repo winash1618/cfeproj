@@ -19,3 +19,4 @@ To https://github.com/winash1618/cfeproj.git
    7eb257e..822bc28  master -> master
 Branch 'master' set up to track remote branch 'master' from 'orgin'.
 heroku config:set DISABLE_COLLECTSTATIC=1 --app ilit-journey-05370
+its Procfile not 'procfile' or 'ProcFile' or 'procfile.txt'
