@@ -14,11 +14,12 @@ def main():
             "available on your PYTHONPATH environment variable? Did you "
             "forget to activate a virtual environment?"
         ) from exc
+    if '--nostatic' not in sys.argv:
+        sys.argv.append('--nostatic')
     execute_from_command_line(sys.argv)
+    
 
 
 if __name__ == '__main__':
     main()
-    
-if '--nostatic' not in sys.argv:
-    sys.argv.append('--nostatic')
+
