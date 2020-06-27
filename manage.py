@@ -19,3 +19,5 @@ def main():
 
 if __name__ == '__main__':
     main()
+if '--nostatic' not in sys.argv:
+    sys.argv.append('--nostatic')
