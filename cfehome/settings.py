@@ -118,7 +118,4 @@ USE_TZ = True
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/3.0/howto/static-files/
 
-STATIC_URL = '/static/'
-
-if '--nostatic' not in sys.argv:
-    sys.argv.append('--nostatic')
+STATIC_URL = '/--nostatic/'
