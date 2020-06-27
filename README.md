@@ -18,3 +18,4 @@ remote: Resolving deltas: 100% (4/4), completed with 4 local objects.
 To https://github.com/winash1618/cfeproj.git
    7eb257e..822bc28  master -> master
 Branch 'master' set up to track remote branch 'master' from 'orgin'.
+heroku config:set DISABLE_COLLECTSTATIC=1 --app ilit-journey-05370
